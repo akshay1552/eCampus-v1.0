@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:gravity="center_horizontal"
+        android:gravity="right"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,36 +93,92 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            app:backgroundTint="@color/White"
+            android:backgroundTint="#9C27B0"
             android:src="@drawable/floatb"
-            app:fabSize="normal" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingb1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:tint="#FFFFFF"
             app:backgroundTint="@color/White"
-            android:src="@drawable/floatb"
             app:fabSize="mini" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingb2"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            app:backgroundTint="@color/White"
-            android:src="@drawable/floatb"
-            app:fabSize="mini" />
+            android:orientation="horizontal">
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingb3"
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:paddingTop="3dp"-->
+<!--                android:text="College"-->
+<!--                android:background="@drawable/greybtn"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="15dp" />-->
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#EF3C3C"
+                android:src="@drawable/floatb1"
+                app:backgroundTint="@color/White"
+                app:fabSize="mini" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            app:backgroundTint="@color/White"
-            android:src="@drawable/floatb"
-            app:fabSize="mini" />
+            android:orientation="horizontal">
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:background="@drawable/greybtn"-->
+<!--                android:paddingTop="3dp"-->
+<!--                android:text="Courses"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="14dp" />-->
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#EF3C3C"
+                android:src="@drawable/floatb2"
+                app:backgroundTint="@color/White"
+                app:fabSize="mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:background="@drawable/greybtn"-->
+<!--                android:paddingTop="3dp"-->
+<!--                android:text="Info"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="14dp" />-->
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:backgroundTint="#EF3C3C"
+                android:src="@drawable/floatb3"
+                app:backgroundTint="@color/White"
+                app:fabSize="mini" />
+        </LinearLayout>
 
     </LinearLayout>
 
