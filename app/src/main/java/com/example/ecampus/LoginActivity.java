@@ -93,6 +93,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         float2.setOnClickListener(this);
         float3.setOnClickListener(this);
 
+        float1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this,CollegeActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void openMenu(){
