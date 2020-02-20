@@ -43,7 +43,7 @@ public class AdloginActivity extends AppCompatActivity {
                     if (password.getText().toString().equals(admin_pw)){
 
                         Toast.makeText(AdloginActivity.this,"Succesfully Login !!!",Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(AdloginActivity.this,AdminActivity.class);
+                        Intent intent = new Intent(AdloginActivity.this,AdNavigationActivity.class);
                         startActivity(intent);
 
                     }else {

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_college"
+            android:title="About College" />
+        <item
+            android:id="@+id/nav_dep"
+            android:title="About Department" />
+        <item
+            android:id="@+id/nav_reg"
+            android:title="Course Registration" />
+        <item
+            android:id="@+id/nav_examr"
+            android:title="Exam Registration" />
+        <item
+            android:id="@+id/nav_result"
+            android:title="Result" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_forum"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Forum" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ecampus.Admin_ndrawer.home.HomeFragment"
+        tools:layout="@layout/fragment_adhome" />
+
+    <fragment
+        android:id="@+id/nav_college"
+        android:name="com.example.ecampus.Admin_ndrawer.About_College.AboutFragment"
+        android:label="About College"
+        tools:layout="@layout/fragment_aboutclg" />
+
+    <fragment
+        android:id="@+id/nav_dep"
+        android:name="com.example.ecampus.Admin_ndrawer.About_Department.About_depFragment"
+        android:label="About Department"
+        tools:layout="@layout/fragment_aboutdep" />
+
+    <fragment
+        android:id="@+id/nav_reg"
+        android:name="com.example.ecampus.Admin_ndrawer.Course_reg.CourseFragment"
+        android:label="Course Registration"
+        tools:layout="@layout/fragment_course" />
+
+    <fragment
+        android:id="@+id/nav_examr"
+        android:name="com.example.ecampus.Admin_ndrawer.Result.ResultFragment"
+        android:label="Exam Registration"
+        tools:layout="@layout/fragment_exam" />
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.example.ecampus.Admin_ndrawer.Exam_reg.ExamFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/nav_forum"
+        android:name="com.example.ecampus.Admin_ndrawer.Exam_reg.ExamFragment"
+        android:label="Forum"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.ecampus.Admin_ndrawer.Exam_reg.ExamFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_exam" />
+</navigation>
