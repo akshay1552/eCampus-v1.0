@@ -10,21 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AdNavigationActivity"
-            android:parentActivityName=".AdminActivity"
-            android:theme="@style/Noaction">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ecampus.AdminActivity" />
-        </activity>
+            android:name=".GuestActivity"
+            android:theme="@style/Noaction"></activity>
         <activity
             android:name=".About_Us"
             android:theme="@style/Noaction" />
         <activity
             android:name=".CollegeActivity"
-            android:theme="@style/Noaction" />
-        <activity
-            android:name=".AdminActivity"
             android:theme="@style/Noaction" />
         <activity
             android:name=".AdloginActivity"
