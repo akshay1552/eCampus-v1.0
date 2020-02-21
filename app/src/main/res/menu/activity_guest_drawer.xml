@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_guhome"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_guclg"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About College" />
+        <item
+            android:id="@+id/nav_gudep"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Department" />
+        <item
+            android:id="@+id/nav_guadm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Admission Process" />
+        <item
+            android:id="@+id/nav_gufee"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fee Structure" />
+    </group>
+
+
+</menu>

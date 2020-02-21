@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_guhome">
+
+    <fragment
+        android:id="@+id/nav_guhome"
+        android:name="com.example.ecampus.Guest_ndrawer.Guest_home.GuHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_guclg"
+        android:name="com.example.ecampus.Guest_ndrawer.Guest_clg.GuclgFragment"
+        android:label="About College"
+        tools:layout="@layout/fragment_guclg" />
+
+    <fragment
+        android:id="@+id/nav_gudep"
+        android:name="com.example.ecampus.Guest_ndrawer.Guest_dep.GudepFragment"
+        android:label="About Department"
+        tools:layout="@layout/fragment_gudep" />
+
+    <fragment
+        android:id="@+id/nav_guadm"
+        android:name="com.example.ecampus.Guest_ndrawer.Guest_adm.GuadmFragment"
+        android:label="Addmision Process"
+        tools:layout="@layout/fragment_guadm" />
+
+    <fragment
+        android:id="@+id/nav_gufee"
+        android:name="com.example.ecampus.Guest_ndrawer.Guest_fee.GufeeFragment"
+        android:label="Fee Structure"
+        tools:layout="@layout/fragment_gufee" />
+</navigation>
