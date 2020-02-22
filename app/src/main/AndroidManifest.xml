@@ -13,6 +13,9 @@
             android:name=".GuestActivity"
             android:theme="@style/Noaction"></activity>
         <activity
+            android:name=".AdNavigationActivity"
+            android:theme="@style/Noaction"></activity>
+        <activity
             android:name=".About_Us"
             android:theme="@style/Noaction" />
         <activity
