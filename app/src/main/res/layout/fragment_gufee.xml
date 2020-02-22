@@ -1,20 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_share"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:text="Fee Structure"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="FEE STRUCTURE"
+            android:textSize="20dp"
+            android:textColor="@color/Black"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center">
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:background="#ef3c3c">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:text="CATEGORY"
+                    android:textSize="17dp"
+                    android:background="#ef3c3c"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="45dp"
+                    android:text="FEE"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:background="#f1f1f1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:text="1. General "
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="45dp"
+                    android:text="Rs.8490"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:background="#f1f1f1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:text="2. Reserved(NT)"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="45dp"
+                    android:text="Rs.5490"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:background="#f1f1f1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:text="3. Reserved(OBC/SBC)"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="45dp"
+                    android:text="Rs.2490"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:background="#f1f1f1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:text="4. Reserved(ST/SC)"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="45dp"
+                    android:text="Rs.2490"
+                    android:textSize="17dp"
+                    android:textColor="@color/Black"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

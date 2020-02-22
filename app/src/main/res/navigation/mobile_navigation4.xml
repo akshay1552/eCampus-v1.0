@@ -9,7 +9,7 @@
         android:id="@+id/nav_guhome"
         android:name="com.example.ecampus.Guest_ndrawer.Guest_home.GuHomeFragment"
         android:label="Home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_guhome" />
 
     <fragment
         android:id="@+id/nav_guclg"
