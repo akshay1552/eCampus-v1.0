@@ -76,6 +76,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
         });
 
+        layout3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent guestActivity = new Intent(LoginActivity.this,StudentActivity.class);
+                startActivity(guestActivity);
+            }
+        });
+
         layout4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

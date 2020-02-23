@@ -13,14 +13,14 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class TeacherActivity extends AppCompatActivity {
+public class StudentActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_teacher);
+        setContentView(R.layout.activity_student);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,8 +29,8 @@ public class TeacherActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_tehome, R.id.nav_teclg, R.id.nav_tedep,
-                R.id.nav_tecourse, R.id.nav_teexam, R.id.nav_teresult, R.id.nav_tenotes, R.id.nav_tenotice )
+                R.id.nav_suhome, R.id.nav_suclg, R.id.nav_sudep,
+                R.id.nav_sucourse, R.id.nav_suexam, R.id.nav_suresult, R.id.nav_sunotes, R.id.nav_sunotice)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -41,7 +41,7 @@ public class TeacherActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.teacher, menu);
+        getMenuInflater().inflate(R.menu.student, menu);
         return true;
     }
 

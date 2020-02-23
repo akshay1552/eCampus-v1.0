@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_suhome">
+
+    <fragment
+        android:id="@+id/nav_suhome"
+        android:name="com.example.ecampus.Student_ndrawer.Student_home.SuHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_suhome" />
+
+    <fragment
+        android:id="@+id/nav_suclg"
+        android:name="com.example.ecampus.Student_ndrawer.Student_clg.SuClgFragment"
+        android:label="About College"
+        tools:layout="@layout/fragment_suclg" />
+
+    <fragment
+        android:id="@+id/nav_sudep"
+        android:name="com.example.ecampus.Student_ndrawer.Student_dep.SuDepFragment"
+        android:label="About Department"
+        tools:layout="@layout/fragment_sudep" />
+
+    <fragment
+        android:id="@+id/nav_sucourse"
+        android:name="com.example.ecampus.Student_ndrawer.Student_course.SuCourseFragment"
+        android:label="Course Registartion"
+        tools:layout="@layout/fragment_sucourse" />
+
+    <fragment
+        android:id="@+id/nav_suexam"
+        android:name="com.example.ecampus.Student_ndrawer.Student_exam.SuExamFragment"
+        android:label="Exam Registration"
+        tools:layout="@layout/fragment_suexam" />
+
+    <fragment
+        android:id="@+id/nav_suresult"
+        android:name="com.example.ecampus.Student_ndrawer.Student_result.SuResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_suresult" />
+
+    <fragment
+        android:id="@+id/nav_sunotes"
+        android:name="com.example.ecampus.Student_ndrawer.Student_notes.SuNotesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_sunotes" />
+
+    <fragment
+        android:id="@+id/nav_sunotice"
+        android:name="com.example.ecampus.Student_ndrawer.Student_notice.SuNoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_sunotice" />
+</navigation>

@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TeacherActivity"
+            android:name=".StudentActivity"
             android:theme="@style/Noaction"></activity>
+        <activity
+            android:name=".TeacherActivity"
+            android:theme="@style/Noaction" />
         <activity
             android:name=".GuestActivity"
             android:theme="@style/Noaction" />

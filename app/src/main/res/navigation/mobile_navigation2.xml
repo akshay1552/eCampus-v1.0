@@ -42,6 +42,12 @@
         tools:layout="@layout/fragment_teresult" />
 
     <fragment
+        android:id="@+id/nav_tenotes"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_Notes.TeNotesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_tenotes" />
+
+    <fragment
         android:id="@+id/nav_tenotice"
         android:name="com.example.ecampus.Teacher_ndrawer.Teacher_notice.TeNoticeFragment"
         android:label="Result"
