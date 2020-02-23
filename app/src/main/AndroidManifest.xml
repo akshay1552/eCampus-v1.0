@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".GuestActivity"
+            android:name=".TeacherActivity"
             android:theme="@style/Noaction"></activity>
         <activity
+            android:name=".GuestActivity"
+            android:theme="@style/Noaction" />
+        <activity
             android:name=".AdNavigationActivity"
-            android:theme="@style/Noaction"></activity>
+            android:theme="@style/Noaction" />
         <activity
             android:name=".About_Us"
             android:theme="@style/Noaction" />

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tehome">
+
+    <fragment
+        android:id="@+id/nav_tehome"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_tehome" />
+
+    <fragment
+        android:id="@+id/nav_teclg"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_clg.TeClgFragment"
+        android:label="About College"
+        tools:layout="@layout/fragment_teclg" />
+
+    <fragment
+        android:id="@+id/nav_tedep"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_dep.TeDepFragment"
+        android:label="About Department"
+        tools:layout="@layout/fragment_tedep" />
+
+    <fragment
+        android:id="@+id/nav_tecourse"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_course.TeCourseFragment"
+        android:label="Course Registration"
+        tools:layout="@layout/fragment_tecourse" />
+
+    <fragment
+        android:id="@+id/nav_teexam"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_exam.TeExamFragment"
+        android:label="Exam Registration"
+        tools:layout="@layout/fragment_teexam" />
+
+    <fragment
+        android:id="@+id/nav_teresult"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_result.TeResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_teresult" />
+
+    <fragment
+        android:id="@+id/nav_tenotice"
+        android:name="com.example.ecampus.Teacher_ndrawer.Teacher_notice.TeNoticeFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_teresult" />
+</navigation>
