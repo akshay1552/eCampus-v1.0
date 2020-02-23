@@ -80,13 +80,13 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="right"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38">
+        app:layout_constraintVertical_bias="0.29000002">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingb"
@@ -104,16 +104,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-<!--            <androidx.appcompat.widget.AppCompatTextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="9dp"-->
-<!--                android:paddingTop="3dp"-->
-<!--                android:text="College"-->
-<!--                android:background="@drawable/greybtn"-->
-<!--                android:textAlignment="viewStart"-->
-<!--                android:textColor="@color/Black"-->
-<!--                android:textSize="15dp" />-->
+            <!--            <androidx.appcompat.widget.AppCompatTextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="9dp"-->
+            <!--                android:paddingTop="3dp"-->
+            <!--                android:text="College"-->
+            <!--                android:background="@drawable/greybtn"-->
+            <!--                android:textAlignment="viewStart"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="15dp" />-->
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingb1"
@@ -131,16 +131,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-<!--            <androidx.appcompat.widget.AppCompatTextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="9dp"-->
-<!--                android:background="@drawable/greybtn"-->
-<!--                android:paddingTop="3dp"-->
-<!--                android:text="Courses"-->
-<!--                android:textAlignment="viewStart"-->
-<!--                android:textColor="@color/Black"-->
-<!--                android:textSize="14dp" />-->
+            <!--            <androidx.appcompat.widget.AppCompatTextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="9dp"-->
+            <!--                android:background="@drawable/greybtn"-->
+            <!--                android:paddingTop="3dp"-->
+            <!--                android:text="Courses"-->
+            <!--                android:textAlignment="viewStart"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="14dp" />-->
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingb2"
@@ -158,16 +158,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-<!--            <androidx.appcompat.widget.AppCompatTextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="9dp"-->
-<!--                android:background="@drawable/greybtn"-->
-<!--                android:paddingTop="3dp"-->
-<!--                android:text="Info"-->
-<!--                android:textAlignment="viewStart"-->
-<!--                android:textColor="@color/Black"-->
-<!--                android:textSize="14dp" />-->
+            <!--            <androidx.appcompat.widget.AppCompatTextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="9dp"-->
+            <!--                android:background="@drawable/greybtn"-->
+            <!--                android:paddingTop="3dp"-->
+            <!--                android:text="Info"-->
+            <!--                android:textAlignment="viewStart"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="14dp" />-->
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingb3"
