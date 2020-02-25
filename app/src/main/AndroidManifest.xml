@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity 
+            android:name=".StloginActivity"
+            android:theme="@style/Noaction" />
+        <activity
+            android:name=".TeloginActivity"
+            android:theme="@style/Noaction" />
         <activity
             android:name=".StudentActivity"
-            android:theme="@style/Noaction"></activity>
+            android:theme="@style/Noaction" />
         <activity
             android:name=".TeacherActivity"
             android:theme="@style/Noaction" />

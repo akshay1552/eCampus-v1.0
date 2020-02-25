@@ -71,16 +71,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         layout2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent guestActivity = new Intent(LoginActivity.this,TeacherActivity.class);
-                startActivity(guestActivity);
+                Intent TeacherActivity = new Intent(LoginActivity.this,TeloginActivity.class);
+                startActivity(TeacherActivity);
             }
         });
 
         layout3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent guestActivity = new Intent(LoginActivity.this,StudentActivity.class);
-                startActivity(guestActivity);
+                Intent StudentActivity = new Intent(LoginActivity.this,StloginActivity.class);
+                startActivity(StudentActivity);
             }
         });
 

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdloginActivity">
-
+    tools:context=".StloginActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
@@ -23,7 +22,7 @@
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:collapsedTitleGravity="left"
             app:expandedTitleGravity="center_horizontal"
-            app:title="ADMIN LOGIN"
+            app:title="STUDENT LOGIN"
             app:contentScrim="?attr/colorPrimaryDark"
             app:layout_scrollFlags="exitUntilCollapsed|scroll">
             <ImageView
@@ -41,7 +40,7 @@
                 app:contentInsetStart="72dp"
                 app:layout_collapseMode="pin"
                 app:navigationIcon="@drawable/arrow_back"
-                app:title="Admin Login">
+                app:title="Student Login">
 
             </androidx.appcompat.widget.Toolbar>
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -72,7 +71,7 @@
                 android:focusableInTouchMode="true">
 
                 <EditText
-                    android:id="@+id/adminid"
+                    android:id="@+id/studentid"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/rbutton"
@@ -93,7 +92,7 @@
                 app:passwordToggleEnabled="true">
 
                 <EditText
-                    android:id="@+id/adminpw"
+                    android:id="@+id/studentpw"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_gravity="bottom"
@@ -107,7 +106,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/adlogin_btn"
+                android:id="@+id/stlogin_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
