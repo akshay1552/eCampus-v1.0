@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "887366932297",
+    "firebase_url": "https://ecampus-d9ade.firebaseio.com",
+    "project_id": "ecampus-d9ade",
+    "storage_bucket": "ecampus-d9ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887366932297:android:57e0248e7f17a26076ac98",
+        "android_client_info": {
+          "package_name": "com.example.ecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887366932297-do6ngomc0idbg1fpfrt1ad7o10nk8uf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecampus",
+            "certificate_hash": "9017efbd2eb603e8056784e6f76938b35a00c731"
+          }
+        },
+        {
+          "client_id": "887366932297-7sbiblfdg058b65skj2uk7fjbbb4kn05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxJzr_IhQI3rkvvlhk-w4QnXL_AHP34A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887366932297-7sbiblfdg058b65skj2uk7fjbbb4kn05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

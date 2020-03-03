@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ecampus">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity 
+        <activity android:name=".Student_ndrawer.Student_notes.SuNotesActivity"></activity>
+        <activity android:name=".Teacher_ndrawer.Teacher_Notes.TeNotesActivity" />
+        <activity
+            android:name=".Student_result.Results6Activity"
+            android:label="Semester 6" />
+        <activity
+            android:name=".Student_result.Results5Activity"
+            android:label="Semester 5" />
+        <activity
+            android:name=".Student_result.Results4Activity"
+            android:label="Semester 4" />
+        <activity
+            android:name=".Student_result.Results3Activity"
+            android:label="Semester 3" />
+        <activity
+            android:name=".Student_result.Results2Activity"
+            android:label="Semester 2" />
+        <activity
+            android:name=".Student_result.Results1Activity"
+            android:label="Semester 1" />
+        <activity
+            android:name=".Result_upload.Sem6Activity"
+            android:label="Semester 6" />
+        <activity
+            android:name=".Result_upload.Sem5Activity"
+            android:label="Semester 5" />
+        <activity
+            android:name=".Result_upload.Sem4Activity"
+            android:label="Semester 4" />
+        <activity
+            android:name=".Result_upload.Sem3Activity"
+            android:label="Semester 3" />
+        <activity
+            android:name=".Result_upload.Sem2Activity"
+            android:label="Semester 2" />
+        <activity
+            android:name=".Result_upload.Sem1Activity"
+            android:label="Semester 1" />
+        <activity android:name=".TeNoticeActivity" />
+        <activity
             android:name=".StloginActivity"
             android:theme="@style/Noaction" />
         <activity

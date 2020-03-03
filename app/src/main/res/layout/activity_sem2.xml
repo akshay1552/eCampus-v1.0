@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result_upload.Sem2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="RESULT"
+                android:textSize="20dp"
+                android:textColor="@color/Black"/>
+
+            <EditText
+                android:id="@+id/enroll"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rbutton"
+                android:hint="  Enter your Enrollment Number"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center">
+
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#ef3c3c">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="SUBJECT"
+                        android:textSize="17dp"
+                        android:background="#ef3c3c"
+                        android:textColor="@color/Black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:text="MARKS"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="Engg. Chemestry"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="Maths 2"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="BCE"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="Programing in C"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Communication Skills"
+                        android:textColor="@color/Black"
+                        android:textSize="17dp" />
+
+                    <EditText
+                        android:id="@+id/sub5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="Generic Skills"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#f1f1f1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:text="WPD"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+
+                    <EditText
+                        android:id="@+id/sub7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="45dp"
+                        android:hint="Enter Marks"
+                        android:textSize="17dp"
+                        android:textColor="@color/Black"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/resubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rbutton"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="SUBMIT"
+                android:textColor="@color/Black"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
