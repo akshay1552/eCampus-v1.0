@@ -1,3 +1,4 @@
+# eCampus-v1.0
 The E-Campus is a mobile application. It uses smartphones of android 
 platform. The main objective is to develop an application that provides a smart and 
 easy one-way communication between students and teachers without involvement of 
